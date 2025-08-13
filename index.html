@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8 />" <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Map Plus</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: lightgray;
+        }
+    </style>
+    <header>
+        <h1> Welcome to Map Plus</h1>
+        <img src="050.jpg" alt="Desciption">
+        
+
+    </header>
+    <main>
+        
+        <section>
+            <img src="vic.jpg" alt="Description">
+            <h2>About</h2>
+            <p> Map Plus is a Christian based organization (LDS) focus on sharing the Gospel of Jesus Christ, uplifting
+                the needy, we believe that in this afflicted world we can stand by each other to glow ourselves through
+                the little we have, Map Plus is a Libeia based Organization and is dedicated to improving lives through
+                the little obtain for better enhancements, we have seen and it's indeed obvious that many people
+                face alot in today's world, they're also lost from the Gospel of the Savior Jesus Christ and there
+                should be something done to affect the society positively
+                We believe that this fruit of life as mention in the 1 Nehpi(Book of Mormon) that the Prophet Lehi had a
+                dream of can be brought to the knowledge of every lost sheeps to build the Lord's Kingdom and strengthen
+                Zion. Imagine of the peculair attributes of the Savior retoring his Church through the Prophet JOSEPH
+                SMITH. This shows that he loves us and do not intend to see us in bondage. With Map Plus, the atoning sacrifice of our Lord and Savior Jesus Christ helps us to partake in the work of
+            salvations and exaltations
+            </p>
+        </section>
+        <h2>Mission</h2>
+            <p> Bringing Light to the World!. Helping in the work of Salvation to have a proper understanding of the
+                Restored Gospel.
+                as a Followers of Christ, we aim providing aid to the best of our eligibilty to bless the lives of others.
+                We learned from 3 Nephi 13:1 that "Verily I say unto you, I would you do arms unto the needy". This is a
+                commandment from our Heavenly father and that's for sure.
+            </p>
+            
+
+            <section id="donate" style="background-color:#f9f9f9; padding:40px 20px; text-align:center; border-radius:10px; max-width:600px; margin:40px auto; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
+  <h2 style="color:#333; font-size:28px; margin-bottom:20px;">Support Map Plus</h2>
+  <p style="color:#555; font-size:16px; margin-bottom:30px;">
+    Help us continue our work by donating via Bank Transfer or Mobile Money.
+  </p>
+
+  <!-- Bank Section -->
+  <div style="margin-bottom:30px;">
+    <h3 style="color:#0070ba; font-size:20px; margin-bottom:10px;">Bank Transfer</h3>
+    <p style="color:#555; margin:5px 0;">Bank: ABC Bank Liberia</p>
+    <p style="color:#555; margin:5px 0;">Account Name: Map Plus Foundation</p>
+    <p style="color:#555; margin:5px 0;">Account Number: <span id="bankAccount">1234567890</span> 
+      <button onclick="copyText('bankAccount')" style="margin-left:10px; padding:5px 10px; font-size:14px; border:none; border-radius:5px; background-color:#0070ba; color:white; cursor:pointer;">Copy</button>
+    </p>
+  </div>
+
+  <!-- Mobile Money Section -->
+  <div>
+    <h3 style="color:#f6921e; font-size:20px; margin-bottom:10px;">Mobile Money</h3>
+    <p style="color:#555; margin:5px 0;">Provider: MTN Liberia</p>
+    <p style="color:#555; margin:5px 0;">Mobile Number: <span id="mobileNumber">+231-887-54-1741</span> 
+      <button onclick="copyText('mobileNumber')" style="margin-left:10px; padding:5px 10px; font-size:14px; border:none; border-radius:5px; background-color:#f6921e; color:white; cursor:pointer;">Copy</button>
+    </p>
+  </div>
+
+  <p style="margin-top:30px; color:#555;">Thank you for supporting our cause!</p>
+</section>
+
+<script>
+  function copyText(elementId) {
+    var text = document.getElementById(elementId).innerText;
+    navigator.clipboard.writeText(text).then(() => {
+      alert("Copied: " + text);
+    });
+  }
+</script>
+
+        
+        </section>
+        <section id="Picture" <img src="images/020.jpg" alt="Decription of the image">
+
+        </section>
+        <footer>
+            <p>&copy;2025 Map Plus. All rights reserved </p>
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
